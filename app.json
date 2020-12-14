@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "grab-market-mobile",
+    "name": "그랩마켓",
     "slug": "grab-market-mobile",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -17,13 +17,15 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.grabmarket"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.grabmarket"
     },
     "web": {
       "favicon": "./assets/favicon.png"
